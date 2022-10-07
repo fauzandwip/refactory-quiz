@@ -1,6 +1,6 @@
 const maxMin = (arr) => {
-	const max = Math.max.apply(null, arr)
-	const min = Math.min.apply(null, arr)
+	const max = Math.max(...arr)
+	const min = Math.min(...arr)
 
 	return `Angka terbesar ${max}, angka terkecil ${min}`
 }
